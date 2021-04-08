@@ -26,8 +26,8 @@
                 d:Text="Item description"
                 FontSize="Small"
                 Text="{Binding Item.Description}" />
-            <CheckBox IsChecked="{Binding Item.IsCompleted}" />
             <Label Text="Completed" />
+            <CheckBox IsChecked="{Binding Item.IsCompleted}" />
 
         </StackLayout>
     </ContentPage.Content>
